@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+}
+
+.welcome-section {
+    margin-bottom: 40px;
+}
+
+.welcome-content {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.welcome-images {
+    flex: 1;
+}
+
+.welcome-images img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.welcome-text {
+    flex: 2;
+}
+
+.welcome-text p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.welcome-button {
+    background-color: #006994;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+.welcome-button:hover {
+    background-color: #005577;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #006994;
+    height: 100vh;
+    position: fixed;
+    padding: 20px;
+}
+
+.logo {
+    width: 100px;
+    margin-bottom: 30px;
+}
+
+.nav-menu {
+    list-style: none;
+}
+
+.nav-menu li {
+    margin: 15px 0;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: opacity 0.3s;
+    font-family: 'Pacifico', cursive;
+}
+
+.nav-menu a:hover {
+    opacity: 0.7;
+}
+
+.main-content {
+    margin-left: 200px;
+    width: calc(100% - 200px);
+    padding: 20px;
+}
+
+.hero-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 30px;
+}
+
+.welcome-section {
+    margin-bottom: 40px;
+}
+
+h1 {
+    color: #006994;
+    margin-bottom: 20px;
+}
+
+.carousel {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+    overflow-x: auto;
+}
+
+.carousel img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.about-section {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.about-text {
+    flex: 2;
+}
+
+.about-image {
+    flex: 1;
+}
+
+.about-image img {
+    width: 100%;
+    height: auto;
+}
+
+.sweets-section {
+    margin-bottom: 40px;
+}
+
+.sweets-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.sweets-grid img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.sweets-grid img:hover {
+    transform: scale(1.05);
+}
+
+.contact-form {
+    max-width: 500px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    background-color: #006994;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #005577;
+}
